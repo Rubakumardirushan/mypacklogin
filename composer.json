@@ -1,0 +1,25 @@
+{
+    "name": "dirushan/loginform",
+    "description": "my testing work",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dirushan\\Loginform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dirushan\\Loginform\\MyloginServiceProvidver"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "dirushan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
